@@ -27,7 +27,7 @@
 
 	<script src="js/ui.js"></script>
 	<script src="js/main.js"></script>
-	<script src='//cwilso.github.com/WebMIDIAPIShim/WebMIDIAPI.js'></script>
+	<script src='http://cwilso.github.com/WebMIDIAPIShim/WebMIDIAPI.js'></script>
 	<script src="js/midi.js"></script>
 	<script src="js/vocoder.js"></script>
 	<script src="js/sliders.js"></script>
@@ -46,7 +46,7 @@
 			<div id="modules">
 				<div id="modulator" class="module modulator has-footer">
 					<div class="content">
-						<h6>Modulator</h6>	
+						<h6>Modulator</h6>
 						<div class="control-group last" id="modgaingroup">
 							<div class="slider-info">
 								<span class="label">gain</span>
@@ -62,7 +62,7 @@
 				</div>
 				<div id="carrier" class="module carrier has-footer">
 					<div class="content">
-						<h6>Carrier</h6>	
+						<h6>Carrier</h6>
 						<div class="control-group" id="samplegroup">
 							<div class="slider-info">
 								<span class="label">Sample Level</span>
@@ -123,13 +123,13 @@
 <!--	<div class="link">Code available on <a href="https://github.com/cwilso/Vocoder">GitHub</a>.</div>  -->
 	<div style="display:none" ID="controls">
 		<!-- Analyser type -->
-		<input type="radio" name="radioSet" value="data" 
+		<input type="radio" name="radioSet" value="data"
 			onmousedown="analyserView1.setAnalysisType(ANALYSISTYPE_FREQUENCY); analyserView2.setAnalysisType(ANALYSISTYPE_FREQUENCY);">Frequency
-		<input type="radio" name="radioSet" value="data" 
+		<input type="radio" name="radioSet" value="data"
 			onmousedown="analyserView1.setAnalysisType(ANALYSISTYPE_SONOGRAM); analyserView2.setAnalysisType(ANALYSISTYPE_SONOGRAM);">Sonogram
-		<input type="radio" name="radioSet" value="data" checked="checked" 
+		<input type="radio" name="radioSet" value="data" checked="checked"
 			onmousedown="analyserView1.setAnalysisType(ANALYSISTYPE_3D_SONOGRAM); analyserView2.setAnalysisType(ANALYSISTYPE_3D_SONOGRAM);">3D Sonogram
-		<input type="radio" name="radioSet" value="data" 
+		<input type="radio" name="radioSet" value="data"
 			onmousedown="analyserView1.setAnalysisType(ANALYSISTYPE_WAVEFORM); analyserView2.setAnalysisType(ANALYSISTYPE_WAVEFORM);">Waveform
 
 		<div id="midisettings">
